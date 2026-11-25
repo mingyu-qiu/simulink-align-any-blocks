@@ -16,14 +16,12 @@
 - `alignAnyBlocks.m`：主要布局算法。
 - `sl_customization.m`：向 Simulink 工具菜单注册命令。
 - `startup.m`：将脚本目录加入 MATLAB 搜索路径。
-- `test.slx`：演示模型。
-- `layout_preview.png`：最终布局预览。
 - `alignAnyBlocks_设计思路.md`：详细设计说明。
 
 ## 使用
 
 1. 将当前目录加入 MATLAB 搜索路径。
-2. 打开 `test.slx` 或其他 Simulink 模型。
+2. 打开目标 Simulink 模型。
 3. 选中一个子系统作为布局锚点。
 4. 执行：
 
@@ -42,3 +40,4 @@ sl_refresh_customizations
 ## 设计说明
 
 详见 [alignAnyBlocks_设计思路.md](alignAnyBlocks_设计思路.md)。
+
